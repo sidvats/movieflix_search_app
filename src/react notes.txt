@@ -1,0 +1,29 @@
+*.virtual dom is a js object that is light weight representation of an object.updating vitual dom is much faster than updating real dom.
+  virtual dom maps the real dom and makes changes to only a section
+*. react is component based.component is a small piece of ui.
+* JSX in react is used to bind html injs code .it describes what user interface would look like.
+* difference b/w jsx and html       
+        - jsx ele has className attriibute but html has class.
+        - any valid js expression can be put in {} in jsx but in html js is written in scripts tag
+* .core packages in create-react-app are react-dom,react,react-scripts
+*. component in react is of 2 types-:
+    i.  class Based components :
+            to create :
+                first   :  import React,{Component} from 'react';
+                make a 
+                js class : class classname extends Component{
+                                render(){
+                                    return (<div>)
+                                }
+                            }        
+    ii. functional components
+            to create : just import react,create a js function and retrun from it the div
+*. props in react is a feature which is used to pass data between components.
+*. state in react is a plain js object(local variable) which is available to every class based component.and using hooks(useState) it is made available to functional components.
+*. useEffect is called when a component reloads
+        useEffect(()=>{
+            
+        },[])//adding [makes effect to be called only once but if a varibale is provided in [] then useEffect will be called only when the value of that variable changes.
+
+
+    
